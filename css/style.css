@@ -39,10 +39,6 @@ footer {
     width: calc(100% / 12 * 8);
 }
 
-.col-6 {
-    width: calc(100% / 12 * 6);
-}
-
 .col-4 {
     width: calc(100% / 12 * 4);
 }
@@ -56,7 +52,6 @@ footer {
     height: 200px;
     margin: 3rem;
 }
-
 
 .flex {
     display: flex;
