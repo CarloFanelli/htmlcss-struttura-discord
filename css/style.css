@@ -76,8 +76,8 @@ footer {
 
 /* card is use to have a content space*/
 .card {
-    width: 60%;
-    padding: 3rem auto;
+    width: 90%;
+    padding: auto;
     height: 300px;
     background-color: #fff;
 }
