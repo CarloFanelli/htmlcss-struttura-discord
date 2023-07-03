@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.flex {
+    display: flex;
+}
+
+header {
+    height: 100px;
+}
+
+
+
+.menu {
+    padding: 1rem 0;
+    width: 80%;
+    max-width: 1170px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
