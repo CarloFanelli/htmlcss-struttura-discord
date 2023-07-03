@@ -5,29 +5,42 @@
     border: 1px solid red;
 }
 
-.red{
+.red {
     background-color: red;
 }
 
-.blue{
+.blue {
     background-color: blue;
+}
+
+.green {
+    background-color: green;
 }
 
 .flex {
     display: flex;
 }
 
-header {
-    height: 100px;
+.w80 {
+    width: 80%;
+    margin: auto;
+    max-width: 1170px;
 }
-
 
 
 .menu {
     padding: 1rem 0;
-    width: 80%;
-    max-width: 1170px;
-    margin: auto;
     justify-content: space-between;
     align-items: center;
 }
+
+
+/* #section DEBUG*/
+
+.image {
+    width: 60%;
+    margin: 3rem auto;
+    height: 300px;
+}
+
+/* #endsection DEBUG*/
