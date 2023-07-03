@@ -5,24 +5,37 @@
     border: 1px solid red;
 }
 
-.light{
+footer {
+    background-color: darkblue;
+}
+
+.light {
     background-color: #fff;
 }
-.dark{
+
+.dark {
     background-color: grey;
 }
 
-.col-8{
+.col-8 {
     width: calc(100% / 12 * 8);
 }
 
-.col-4{
+.col-4 {
     width: calc(100% / 12 * 4);
+}
+
+.img_top {
+    width: 50%;
+    height: 200px;
+    margin: 3rem;
 }
 
 
 .flex {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .w80 {
@@ -43,7 +56,7 @@
 /* card is use to have a content space*/
 .card {
     width: 60%;
-    margin: 3rem auto;
+    padding: 3rem auto;
     height: 300px;
     background-color: #fff;
 }
@@ -60,7 +73,8 @@
     background-color: green;
 }
 
-.p1{
+.p1 {
     padding: 1rem;
 }
+
 /* #endsection DEBUG*/
