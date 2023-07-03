@@ -5,6 +5,48 @@
     border: 1px solid red;
 }
 
+.light{
+    background-color: #fff;
+}
+.dark{
+    background-color: grey;
+}
+
+.col-8{
+    width: calc(100% / 12 * 8);
+}
+
+.col-4{
+    width: calc(100% / 12 * 4);
+}
+
+
+.flex {
+    display: flex;
+}
+
+.w80 {
+    width: 80%;
+    margin: auto;
+    max-width: 1170px;
+}
+
+.menu {
+    padding: 1rem 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* #section DEBUG*/
+
+.card {
+    width: 60%;
+    margin: 3rem auto;
+    height: 300px;
+    background-color: #fff;
+}
+
 .red {
     background-color: red;
 }
@@ -17,30 +59,7 @@
     background-color: green;
 }
 
-.flex {
-    display: flex;
+.p1{
+    padding: 1rem;
 }
-
-.w80 {
-    width: 80%;
-    margin: auto;
-    max-width: 1170px;
-}
-
-
-.menu {
-    padding: 1rem 0;
-    justify-content: space-between;
-    align-items: center;
-}
-
-
-/* #section DEBUG*/
-
-.image {
-    width: 60%;
-    margin: 3rem auto;
-    height: 300px;
-}
-
 /* #endsection DEBUG*/
