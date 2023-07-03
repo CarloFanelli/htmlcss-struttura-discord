@@ -40,6 +40,7 @@
 
 /* #section DEBUG*/
 
+/* card is use to have a content space*/
 .card {
     width: 60%;
     margin: 3rem auto;
